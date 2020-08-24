@@ -21,16 +21,16 @@ class Resume
         $qualifications = array();
         
         $qualifications[] = ScientialQualifications::BachelorDegree([
-            "Degree Name" => "Information Technology & Computer Science",
-            "Qualifier Name" => "Sana'a University - Information Technology & Computer Science",
-            "Date" => "April, 2014 - June, 2018",
+            "Degree Name"       => "Information Technology & Computer Science",
+            "Qualifier Name"    => "Sana'a University - Information Technology & Computer Science",
+            "Date"              => "April, 2014 - June, 2018",
             "Qualifier Address" => "Sana'a - Yemen",
         ]);
 
         $qualifications[] = ScientialQualifications::SecondarySchool([
-            "Degree Name" => "Sciential Section General Secondary School",
-            "Qualifier Name" => "Al-Kuwait Secondary School",
-            "Date" => "March, 2009 - May, 2012",
+            "Degree Name"       => "Sciential Section General Secondary School",
+            "Qualifier Name"    => "Al-Kuwait Secondary School",
+            "Date"              => "March, 2009 - May, 2012",
             "Qualifier Address" => "Sana'a - Yemen",
         ]);
 
@@ -43,30 +43,30 @@ class Resume
         $courses = array();
         
         $courses[] = Courses::englishDiploma([
-            "Degree Name" => "Intermediate English Diploma",
-            "Qualifier Name" => "Canadian Training Center",
-            "Date" => "April, 2012 - August, 2012",
+            "Degree Name"       => "Intermediate English Diploma",
+            "Qualifier Name"    => "Canadian Training Center",
+            "Date"              => "April, 2012 - August, 2012",
             "Qualifier Address" => "Sana'a - Yemen",
         ]);
 
         $courses[] = Courses::accounting([
-            "Degree Name" => "Accounting for Non-accountant Diploma",
-            "Qualifier Name" => "Ministry of Adult and Sport",
-            "Date" => "Feb, 2013 - March, 2013",
+            "Degree Name"       => "Accounting for Non-accountant Diploma",
+            "Qualifier Name"    => "Ministry of Adult and Sport",
+            "Date"              => "Feb, 2013 - March, 2013",
             "Qualifier Address" => "Sana'a - Yemen",
         ]);
 
         $courses[] = Courses::graphics([
-            "Degree Name" => "Graphics (PhotoShop - Illustrator - InDesign) Diploma",
-            "Qualifier Name" => "Ministry of Adult and Sport",
-            "Date" => "March, 2014 - May, 2014",
+            "Degree Name"       => "Graphics (PhotoShop - Illustrator - InDesign) Diploma",
+            "Qualifier Name"    => "Ministry of Adult and Sport",
+            "Date"              => "March, 2014 - May, 2014",
             "Qualifier Address" => "Sana'a - Yemen",
         ]);
 
         $courses[] = Courses::montage([
-            "Degree Name" => "Montage (Premier - AfterEffect) Diploma",
-            "Qualifier Name" => "Ministry of Adult and Sport",
-            "Date" => "August, 2016 - September, 2016",
+            "Degree Name"       => "Montage (Premier - AfterEffect) Diploma",
+            "Qualifier Name"    => "Ministry of Adult and Sport",
+            "Date"              => "August, 2016 - September, 2016",
             "Qualifier Address" => "Sana'a - Yemen",
         ]);
 
@@ -81,9 +81,9 @@ class Resume
         $experiences = array();
         
         $experiences[] = Experiences::infiniteCloud([
-            "Company Name" => "InfiniteCloud",
+            "Company Name"    => "InfiniteCloud",
             "Company Website" => "https://infinitecloud.co",
-            "Date" => "December, 2018 - now",
+            "Date"            => "December, 2018 - now",
             "Company Address" => "Sana'a - Yemen",
         ]);
 
@@ -132,7 +132,7 @@ class Resume
         $languages = array();
         
         $languages[] = SpeakingLanguages::languages([
-            "Arabic" => "Native Language",
+            "Arabic"  => "Native Language",
             "English" => "Well Experienced",
             "Germany" => "Beginner",
         ]);
