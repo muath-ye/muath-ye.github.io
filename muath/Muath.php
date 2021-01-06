@@ -4,6 +4,8 @@
  * +967777643646
  * muathye@gmail.com
  * https://github/muath-ye
+ * 101110010110011110011001111110
+ * !*!!!**!*!!**!!!!**!!**!!!!!!*
  */
 namespace Muath;
 
